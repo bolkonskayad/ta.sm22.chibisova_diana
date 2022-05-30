@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="robotframework" type="repository">
+    <properties maven-id="org.robotframework:robotframework:3.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/robotframework/robotframework/3.0/robotframework-3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

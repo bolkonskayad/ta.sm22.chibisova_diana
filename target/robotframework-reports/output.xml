@@ -1,0 +1,1593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 2.8.1 (Jython 2.5.3 on java1.8.0_321)" generated="20220530 13:23:53.355">
+<suite source="C:\Users\diana\Downloads\ta.sm22.chibisova_diana\src\test\robotframework\acceptance" name="Acceptance" id="s1">
+<suite source="C:\Users\diana\Downloads\ta.sm22.chibisova_diana\src\test\robotframework\acceptance\1_RegistrationTest.robot" name="1 RegistrationTest" id="s1-s1">
+<test name="TС 1.1 Valid registration with admin role" id="s1-s1-t1">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:23:59.508">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 53500
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:23:59.510" starttime="20220530 13:23:55.340" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:23:59.947" starttime="20220530 13:23:59.516" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>${NAME}</arg>
+</arguments>
+<status endtime="20220530 13:24:00.281" starttime="20220530 13:23:59.949" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:24:00.659" starttime="20220530 13:24:00.284" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Confirm In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:24:00.923" starttime="20220530 13:24:00.662" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>diana@mail.ru</arg>
+</arguments>
+<status endtime="20220530 13:24:01.194" starttime="20220530 13:24:00.925" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>Admin</arg>
+</arguments>
+<status endtime="20220530 13:24:01.349" starttime="20220530 13:24:01.197" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:01.581" starttime="20220530 13:24:01.351" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Message Of Success Registration">
+<doc></doc>
+<arguments>
+<arg>You have successfully registered\nUse your credentials to login</arg>
+</arguments>
+<status endtime="20220530 13:24:01.724" starttime="20220530 13:24:01.584" status="PASS"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:03.552" starttime="20220530 13:24:01.728" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:24:03.554" starttime="20220530 13:23:54.904" status="PASS"></status>
+</test>
+<test name="TС 1.2 Valid registration with Read Only role" id="s1-s1-t2">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:24:06.018">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 48280
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:24:06.020" starttime="20220530 13:24:03.569" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:24:06.442" starttime="20220530 13:24:06.023" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>${NAME}15</arg>
+</arguments>
+<status endtime="20220530 13:24:06.728" starttime="20220530 13:24:06.444" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:24:07.089" starttime="20220530 13:24:06.730" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Confirm In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:24:07.356" starttime="20220530 13:24:07.092" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>diana@mail.ru</arg>
+</arguments>
+<status endtime="20220530 13:24:07.633" starttime="20220530 13:24:07.358" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>RO</arg>
+</arguments>
+<status endtime="20220530 13:24:07.754" starttime="20220530 13:24:07.635" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:07.965" starttime="20220530 13:24:07.756" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Message Of Success Registration">
+<doc></doc>
+<arguments>
+<arg>You have successfully registered\nUse your credentials to login</arg>
+</arguments>
+<status endtime="20220530 13:24:08.114" starttime="20220530 13:24:07.968" status="PASS"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:09.599" starttime="20220530 13:24:08.118" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:24:09.602" starttime="20220530 13:24:03.560" status="PASS"></status>
+</test>
+<test name="TС 1.3 Valid registration with Read / Write role" id="s1-s1-t3">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:24:12.075">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 29737
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:24:12.076" starttime="20220530 13:24:09.612" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:24:12.497" starttime="20220530 13:24:12.081" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>${NAME}15</arg>
+</arguments>
+<status endtime="20220530 13:24:12.807" starttime="20220530 13:24:12.499" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:24:13.203" starttime="20220530 13:24:12.808" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Confirm In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:24:13.463" starttime="20220530 13:24:13.209" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>diana@mail.ru</arg>
+</arguments>
+<status endtime="20220530 13:24:13.740" starttime="20220530 13:24:13.465" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>RW</arg>
+</arguments>
+<status endtime="20220530 13:24:13.902" starttime="20220530 13:24:13.741" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:14.128" starttime="20220530 13:24:13.903" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Message Of Success Registration">
+<doc></doc>
+<arguments>
+<arg>You have successfully registered\nUse your credentials to login</arg>
+</arguments>
+<status endtime="20220530 13:24:14.272" starttime="20220530 13:24:14.132" status="PASS"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:15.754" starttime="20220530 13:24:14.275" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:24:15.758" starttime="20220530 13:24:09.606" status="PASS"></status>
+</test>
+<test name="TС 2.1 Valid username" id="s1-s1-t4">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:24:18.106">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 41724
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:24:18.108" starttime="20220530 13:24:15.769" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:24:18.519" starttime="20220530 13:24:18.111" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>${NAME}15</arg>
+</arguments>
+<status endtime="20220530 13:24:18.856" starttime="20220530 13:24:18.521" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:24:19.233" starttime="20220530 13:24:18.857" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Confirm In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:24:19.494" starttime="20220530 13:24:19.235" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>diana@mail.ru</arg>
+</arguments>
+<status endtime="20220530 13:24:19.764" starttime="20220530 13:24:19.495" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>Admin</arg>
+</arguments>
+<status endtime="20220530 13:24:19.934" starttime="20220530 13:24:19.766" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:20.177" starttime="20220530 13:24:19.935" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Message Of Success Registration">
+<doc></doc>
+<arguments>
+<arg>You have successfully registered\nUse your credentials to login</arg>
+</arguments>
+<status endtime="20220530 13:24:20.324" starttime="20220530 13:24:20.180" status="PASS"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:21.841" starttime="20220530 13:24:20.327" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:24:21.843" starttime="20220530 13:24:15.763" status="PASS"></status>
+</test>
+<test name="TС 2.2 Repeat registration" id="s1-s1-t5">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:24:24.170">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 61797
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:24:24.172" starttime="20220530 13:24:21.853" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:24:24.556" starttime="20220530 13:24:24.174" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Non Uniq Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>chibisovad</arg>
+</arguments>
+<status endtime="20220530 13:24:24.876" starttime="20220530 13:24:24.557" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:24:25.258" starttime="20220530 13:24:24.878" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Confirm In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:24:25.521" starttime="20220530 13:24:25.262" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>diana@mail.ru</arg>
+</arguments>
+<status endtime="20220530 13:24:25.791" starttime="20220530 13:24:25.523" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>Admin</arg>
+</arguments>
+<status endtime="20220530 13:24:25.953" starttime="20220530 13:24:25.792" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:26.197" starttime="20220530 13:24:25.954" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Error After Invalid Username">
+<doc></doc>
+<arguments>
+<arg>User with such login already exists.</arg>
+</arguments>
+<status endtime="20220530 13:24:26.329" starttime="20220530 13:24:26.199" status="PASS"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:27.819" starttime="20220530 13:24:26.332" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:24:27.821" starttime="20220530 13:24:21.848" status="PASS"></status>
+</test>
+<test name="TС 2.3 Invalid username less symbols" id="s1-s1-t6">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:24:30.228">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 43528
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:24:30.230" starttime="20220530 13:24:27.830" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:24:30.634" starttime="20220530 13:24:30.233" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Non Uniq Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>dia5</arg>
+</arguments>
+<status endtime="20220530 13:24:30.908" starttime="20220530 13:24:30.635" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:24:31.282" starttime="20220530 13:24:30.909" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Confirm In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:24:31.547" starttime="20220530 13:24:31.284" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>diana@mail.ru</arg>
+</arguments>
+<status endtime="20220530 13:24:31.812" starttime="20220530 13:24:31.549" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>Admin</arg>
+</arguments>
+<status endtime="20220530 13:24:31.975" starttime="20220530 13:24:31.813" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:32.205" starttime="20220530 13:24:31.976" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Error After Invalid Username">
+<doc></doc>
+<arguments>
+<arg>Login must be alphanumeric string with length =&gt; 6 and &lt;= 50.</arg>
+</arguments>
+<status endtime="20220530 13:24:32.370" starttime="20220530 13:24:32.207" status="PASS"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:33.858" starttime="20220530 13:24:32.372" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:24:33.860" starttime="20220530 13:24:27.825" status="PASS"></status>
+</test>
+<test name="TС 2.4 Invalid username more symbols" id="s1-s1-t7">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:24:36.229">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 38328
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:24:36.231" starttime="20220530 13:24:33.869" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:24:36.638" starttime="20220530 13:24:36.233" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>${NAME}151111111111111111111111111111111111111111111111111111111111111111111</arg>
+</arguments>
+<status endtime="20220530 13:24:36.957" starttime="20220530 13:24:36.640" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:24:37.346" starttime="20220530 13:24:36.958" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Confirm In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:24:37.616" starttime="20220530 13:24:37.349" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>diana@mail.ru</arg>
+</arguments>
+<status endtime="20220530 13:24:37.931" starttime="20220530 13:24:37.617" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>Admin</arg>
+</arguments>
+<status endtime="20220530 13:24:38.088" starttime="20220530 13:24:37.932" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:38.303" starttime="20220530 13:24:38.090" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Error After Invalid Username">
+<doc></doc>
+<arguments>
+<arg>Login must be alphanumeric string with length =&gt; 6 and &lt;= 50.</arg>
+</arguments>
+<msg level="FAIL" timestamp="20220530 13:24:38.462">expected [Login must be alphanumeric string with length =&gt; 6 and &lt;= 50.] but found [User with such login already exists.]</msg>
+<status endtime="20220530 13:24:38.463" starttime="20220530 13:24:38.304" status="FAIL"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:39.959" starttime="20220530 13:24:38.466" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:24:39.963" starttime="20220530 13:24:33.865" status="FAIL">expected [Login must be alphanumeric string with length =&gt; 6 and &lt;= 50.] but found [User with such login already exists.]</status>
+</test>
+<test name="TС 2.5 Invalid username with non-alphanumeric symbol" id="s1-s1-t8">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:24:42.340">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 51898
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:24:42.342" starttime="20220530 13:24:39.970" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:24:42.748" starttime="20220530 13:24:42.345" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>${NAME}15+</arg>
+</arguments>
+<status endtime="20220530 13:24:43.059" starttime="20220530 13:24:42.749" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:24:43.418" starttime="20220530 13:24:43.061" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Confirm In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:24:43.685" starttime="20220530 13:24:43.420" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>diana@mail.ru</arg>
+</arguments>
+<status endtime="20220530 13:24:43.972" starttime="20220530 13:24:43.687" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>Admin</arg>
+</arguments>
+<status endtime="20220530 13:24:44.151" starttime="20220530 13:24:43.973" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:44.367" starttime="20220530 13:24:44.153" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Error After Invalid Username">
+<doc></doc>
+<arguments>
+<arg>Login must be alphanumeric string with length =&gt; 6 and &lt;= 50.</arg>
+</arguments>
+<status endtime="20220530 13:24:44.512" starttime="20220530 13:24:44.369" status="PASS"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:46.051" starttime="20220530 13:24:44.514" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:24:46.053" starttime="20220530 13:24:39.967" status="PASS"></status>
+</test>
+<test name="TС 2.6 Empty username" id="s1-s1-t9">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:24:48.417">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 58694
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:24:48.419" starttime="20220530 13:24:46.060" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:24:48.835" starttime="20220530 13:24:48.422" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:24:49.234" starttime="20220530 13:24:48.836" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Confirm In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:24:49.514" starttime="20220530 13:24:49.235" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>diana@mail.ru</arg>
+</arguments>
+<status endtime="20220530 13:24:49.785" starttime="20220530 13:24:49.515" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>Admin</arg>
+</arguments>
+<status endtime="20220530 13:24:49.925" starttime="20220530 13:24:49.786" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:50.130" starttime="20220530 13:24:49.927" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Error After Invalid Username">
+<doc></doc>
+<arguments>
+<arg>Login must not be empty.</arg>
+</arguments>
+<status endtime="20220530 13:24:50.269" starttime="20220530 13:24:50.133" status="PASS"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:51.759" starttime="20220530 13:24:50.271" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:24:51.762" starttime="20220530 13:24:46.057" status="PASS"></status>
+</test>
+<test name="TС 3.1 Invalid password less length" id="s1-s1-t10">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:24:54.141">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 35457
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:24:54.142" starttime="20220530 13:24:51.770" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:24:54.700" starttime="20220530 13:24:54.145" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1qD!</arg>
+</arguments>
+<status endtime="20220530 13:24:55.087" starttime="20220530 13:24:54.701" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>${NAME}3.1</arg>
+</arguments>
+<status endtime="20220530 13:24:55.373" starttime="20220530 13:24:55.088" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>Admin</arg>
+</arguments>
+<status endtime="20220530 13:24:55.536" starttime="20220530 13:24:55.374" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>diana@mail.ru</arg>
+</arguments>
+<status endtime="20220530 13:24:55.784" starttime="20220530 13:24:55.537" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:56.028" starttime="20220530 13:24:55.785" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Error After Invalid Password">
+<doc></doc>
+<arguments>
+<arg>Password length must me &gt;= 8 and &lt;= 50.</arg>
+</arguments>
+<status endtime="20220530 13:24:56.171" starttime="20220530 13:24:56.031" status="PASS"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:24:57.645" starttime="20220530 13:24:56.172" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:24:57.648" starttime="20220530 13:24:51.766" status="PASS"></status>
+</test>
+<test name="TС 3.2 Invalid password more length" id="s1-s1-t11">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:25:00.015">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 13240
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:25:00.017" starttime="20220530 13:24:57.655" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:25:00.427" starttime="20220530 13:25:00.019" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq</arg>
+</arguments>
+<status endtime="20220530 13:25:00.890" starttime="20220530 13:25:00.428" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>${NAME}3.2</arg>
+</arguments>
+<status endtime="20220530 13:25:01.160" starttime="20220530 13:25:00.891" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>Admin</arg>
+</arguments>
+<status endtime="20220530 13:25:01.318" starttime="20220530 13:25:01.162" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>diana@mail.ru</arg>
+</arguments>
+<status endtime="20220530 13:25:01.585" starttime="20220530 13:25:01.319" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:01.810" starttime="20220530 13:25:01.586" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Error After Invalid Password">
+<doc></doc>
+<arguments>
+<arg>Password length must me &gt;= 8 and &lt;= 50.</arg>
+</arguments>
+<msg level="FAIL" timestamp="20220530 13:25:01.957">expected [Password length must me &gt;= 8 and &lt;= 50.] but found [Password must match confirm password.]</msg>
+<status endtime="20220530 13:25:01.958" starttime="20220530 13:25:01.811" status="FAIL"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:03.436" starttime="20220530 13:25:01.959" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:25:03.439" starttime="20220530 13:24:57.651" status="FAIL">expected [Password length must me &gt;= 8 and &lt;= 50.] but found [Password must match confirm password.]</status>
+</test>
+<test name="TС 3.3 Invalid password no number" id="s1-s1-t12">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:25:05.808">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 7952
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:25:05.810" starttime="20220530 13:25:03.448" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:25:06.216" starttime="20220530 13:25:05.813" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>qwertyD!!</arg>
+</arguments>
+<status endtime="20220530 13:25:06.605" starttime="20220530 13:25:06.218" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>${NAME}3.3</arg>
+</arguments>
+<status endtime="20220530 13:25:06.864" starttime="20220530 13:25:06.606" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>Admin</arg>
+</arguments>
+<status endtime="20220530 13:25:07.027" starttime="20220530 13:25:06.865" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>diana@mail.ru</arg>
+</arguments>
+<status endtime="20220530 13:25:07.295" starttime="20220530 13:25:07.029" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:07.523" starttime="20220530 13:25:07.297" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Error After Invalid Password">
+<doc></doc>
+<arguments>
+<arg>At least one digit must be in password</arg>
+</arguments>
+<status endtime="20220530 13:25:07.661" starttime="20220530 13:25:07.524" status="PASS"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:09.173" starttime="20220530 13:25:07.662" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:25:09.176" starttime="20220530 13:25:03.444" status="PASS"></status>
+</test>
+<test name="TС 3.4 Invalid password no upper symbol" id="s1-s1-t13">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:25:11.559">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 46245
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:25:11.560" starttime="20220530 13:25:09.183" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:25:11.979" starttime="20220530 13:25:11.563" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5t!</arg>
+</arguments>
+<status endtime="20220530 13:25:12.375" starttime="20220530 13:25:11.980" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>${NAME}3.4</arg>
+</arguments>
+<status endtime="20220530 13:25:12.643" starttime="20220530 13:25:12.377" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>Admin</arg>
+</arguments>
+<status endtime="20220530 13:25:12.812" starttime="20220530 13:25:12.644" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>diana@mail.ru</arg>
+</arguments>
+<status endtime="20220530 13:25:13.081" starttime="20220530 13:25:12.813" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:13.305" starttime="20220530 13:25:13.082" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Error After Invalid Password">
+<doc></doc>
+<arguments>
+<arg>At least one upper letter must be in password</arg>
+</arguments>
+<status endtime="20220530 13:25:13.436" starttime="20220530 13:25:13.307" status="PASS"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:14.925" starttime="20220530 13:25:13.438" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:25:14.928" starttime="20220530 13:25:09.180" status="PASS"></status>
+</test>
+<test name="TС 3.5 Invalid password no non-alphanumeric symbols" id="s1-s1-t14">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:25:17.320">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 5311
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:25:17.321" starttime="20220530 13:25:14.936" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:25:17.711" starttime="20220530 13:25:17.324" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD</arg>
+</arguments>
+<status endtime="20220530 13:25:18.126" starttime="20220530 13:25:17.712" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>${NAME}3.5</arg>
+</arguments>
+<status endtime="20220530 13:25:18.390" starttime="20220530 13:25:18.128" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>Admin</arg>
+</arguments>
+<status endtime="20220530 13:25:18.552" starttime="20220530 13:25:18.391" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>diana@mail.ru</arg>
+</arguments>
+<status endtime="20220530 13:25:18.824" starttime="20220530 13:25:18.553" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:19.113" starttime="20220530 13:25:18.825" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Error After Invalid Password">
+<doc></doc>
+<arguments>
+<arg>At least one non alpha numeric symbol must be in password</arg>
+</arguments>
+<status endtime="20220530 13:25:19.262" starttime="20220530 13:25:19.115" status="PASS"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:20.751" starttime="20220530 13:25:19.264" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:25:20.754" starttime="20220530 13:25:14.932" status="PASS"></status>
+</test>
+<test name="TС 3.6 Empty password" id="s1-s1-t15">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:25:23.172">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 42285
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:25:23.173" starttime="20220530 13:25:20.762" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:25:23.573" starttime="20220530 13:25:23.176" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>${NAME}3.6</arg>
+</arguments>
+<status endtime="20220530 13:25:23.877" starttime="20220530 13:25:23.574" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>Admin</arg>
+</arguments>
+<status endtime="20220530 13:25:24.037" starttime="20220530 13:25:23.878" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>diana@mail.ru</arg>
+</arguments>
+<status endtime="20220530 13:25:24.279" starttime="20220530 13:25:24.039" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:24.504" starttime="20220530 13:25:24.280" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Error After Invalid Password">
+<doc></doc>
+<arguments>
+<arg>Please enter password.</arg>
+</arguments>
+<status endtime="20220530 13:25:24.647" starttime="20220530 13:25:24.505" status="PASS"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:26.137" starttime="20220530 13:25:24.648" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:25:26.139" starttime="20220530 13:25:20.758" status="PASS"></status>
+</test>
+<test name="TС 4.1 Invalid e-mail no '@'" id="s1-s1-t16">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:25:28.593">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 8905
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:25:28.594" starttime="20220530 13:25:26.145" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:25:29.032" starttime="20220530 13:25:28.597" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>dianamail.ru</arg>
+</arguments>
+<status endtime="20220530 13:25:29.313" starttime="20220530 13:25:29.033" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>${NAME}4.1</arg>
+</arguments>
+<status endtime="20220530 13:25:29.583" starttime="20220530 13:25:29.314" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>Admin</arg>
+</arguments>
+<status endtime="20220530 13:25:29.747" starttime="20220530 13:25:29.584" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:25:30.118" starttime="20220530 13:25:29.748" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Confirm In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:25:30.378" starttime="20220530 13:25:30.120" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:30.595" starttime="20220530 13:25:30.379" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Error After Invalid Email">
+<doc></doc>
+<arguments>
+<arg>Email address is incorrect.</arg>
+</arguments>
+<status endtime="20220530 13:25:30.743" starttime="20220530 13:25:30.597" status="PASS"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:32.239" starttime="20220530 13:25:30.745" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:25:32.241" starttime="20220530 13:25:26.142" status="PASS"></status>
+</test>
+<test name="TС 4.2 Invalid e-mail no @" id="s1-s1-t17">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:25:34.698">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 51147
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:25:34.699" starttime="20220530 13:25:32.249" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:25:35.116" starttime="20220530 13:25:34.702" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>diana@mailru</arg>
+</arguments>
+<status endtime="20220530 13:25:35.411" starttime="20220530 13:25:35.118" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>${NAME}4.2</arg>
+</arguments>
+<status endtime="20220530 13:25:35.687" starttime="20220530 13:25:35.412" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>Admin</arg>
+</arguments>
+<status endtime="20220530 13:25:35.859" starttime="20220530 13:25:35.688" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:25:36.239" starttime="20220530 13:25:35.860" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Confirm In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:25:36.517" starttime="20220530 13:25:36.241" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:36.736" starttime="20220530 13:25:36.518" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Error After Invalid Email">
+<doc></doc>
+<arguments>
+<arg>Email address is incorrect.</arg>
+</arguments>
+<status endtime="20220530 13:25:36.876" starttime="20220530 13:25:36.738" status="PASS"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:38.357" starttime="20220530 13:25:36.878" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:25:38.359" starttime="20220530 13:25:32.245" status="PASS"></status>
+</test>
+<test name="TС 4.3 Empty e-mail" id="s1-s1-t18">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:25:40.730">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 32817
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:25:40.731" starttime="20220530 13:25:38.366" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:25:41.125" starttime="20220530 13:25:40.734" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>${NAME}4.3</arg>
+</arguments>
+<status endtime="20220530 13:25:41.417" starttime="20220530 13:25:41.126" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>Admin</arg>
+</arguments>
+<status endtime="20220530 13:25:41.574" starttime="20220530 13:25:41.418" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:25:41.939" starttime="20220530 13:25:41.575" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Confirm In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:25:42.196" starttime="20220530 13:25:41.940" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:42.417" starttime="20220530 13:25:42.198" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Error After Invalid Email">
+<doc></doc>
+<arguments>
+<arg>email field can't be empty</arg>
+</arguments>
+<status endtime="20220530 13:25:42.556" starttime="20220530 13:25:42.418" status="PASS"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:44.028" starttime="20220530 13:25:42.557" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:25:44.031" starttime="20220530 13:25:38.362" status="PASS"></status>
+</test>
+<test name="TС 5.1 Don't pick pole" id="s1-s1-t19">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:25:46.406">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 55409
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:25:46.407" starttime="20220530 13:25:44.038" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:25:46.820" starttime="20220530 13:25:46.410" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>${NAME}15</arg>
+</arguments>
+<status endtime="20220530 13:25:47.114" starttime="20220530 13:25:46.821" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:25:47.495" starttime="20220530 13:25:47.116" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Confirm In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:25:47.759" starttime="20220530 13:25:47.496" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>diana@mail.ru</arg>
+</arguments>
+<status endtime="20220530 13:25:48.033" starttime="20220530 13:25:47.760" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:48.292" starttime="20220530 13:25:48.035" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Message Of Success Registration">
+<doc></doc>
+<arguments>
+<arg>You have successfully registered\nUse your credentials to login</arg>
+</arguments>
+<status endtime="20220530 13:25:48.434" starttime="20220530 13:25:48.293" status="PASS"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:49.929" starttime="20220530 13:25:48.436" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:25:49.932" starttime="20220530 13:25:44.034" status="PASS"></status>
+</test>
+<test name="TC 8.1 Empty confirm password" id="s1-s1-t20">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:25:52.358">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 7012
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:25:52.359" starttime="20220530 13:25:49.937" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:25:52.806" starttime="20220530 13:25:52.362" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>${NAME}8.1</arg>
+</arguments>
+<status endtime="20220530 13:25:53.092" starttime="20220530 13:25:52.807" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:25:53.470" starttime="20220530 13:25:53.093" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>diana@mail.ru</arg>
+</arguments>
+<status endtime="20220530 13:25:53.737" starttime="20220530 13:25:53.471" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>Admin</arg>
+</arguments>
+<status endtime="20220530 13:25:53.900" starttime="20220530 13:25:53.738" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:54.103" starttime="20220530 13:25:53.901" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Error After Invalid Password">
+<doc></doc>
+<arguments>
+<arg>Password must match confirm password.</arg>
+</arguments>
+<status endtime="20220530 13:25:54.246" starttime="20220530 13:25:54.105" status="PASS"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:25:55.708" starttime="20220530 13:25:54.247" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:25:55.710" starttime="20220530 13:25:49.935" status="PASS"></status>
+</test>
+<test name="TC 8.2 Non-repeatable confirm password" id="s1-s1-t21">
+<kw type="setup" name="src.keywords.KeywordsRegistration.Set Up">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20220530 13:25:58.170">Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 39999
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.</msg>
+<status endtime="20220530 13:25:58.171" starttime="20220530 13:25:55.717" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.I Am At The Registration Form">
+<doc></doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<status endtime="20220530 13:25:58.556" starttime="20220530 13:25:58.174" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Username In Registration Form">
+<doc></doc>
+<arguments>
+<arg>${NAME}8.2</arg>
+</arguments>
+<status endtime="20220530 13:25:58.846" starttime="20220530 13:25:58.557" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Email In Registration Form">
+<doc></doc>
+<arguments>
+<arg>diana@mail.ru</arg>
+</arguments>
+<status endtime="20220530 13:25:59.115" starttime="20220530 13:25:58.847" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Select Role In Registration Form">
+<doc></doc>
+<arguments>
+<arg>Admin</arg>
+</arguments>
+<status endtime="20220530 13:25:59.299" starttime="20220530 13:25:59.115" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Password In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD!</arg>
+</arguments>
+<status endtime="20220530 13:25:59.669" starttime="20220530 13:25:59.300" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Input Confirm In Registration Form">
+<doc></doc>
+<arguments>
+<arg>1q2w3e4r5tD</arg>
+</arguments>
+<status endtime="20220530 13:25:59.920" starttime="20220530 13:25:59.670" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Click Register Button">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:26:00.137" starttime="20220530 13:25:59.921" status="PASS"></status>
+</kw>
+<kw type="kw" name="src.keywords.KeywordsRegistration.Check For Error After Invalid Password">
+<doc></doc>
+<arguments>
+<arg>Password must match confirm password.</arg>
+</arguments>
+<status endtime="20220530 13:26:00.283" starttime="20220530 13:26:00.138" status="PASS"></status>
+</kw>
+<kw type="teardown" name="src.keywords.KeywordsRegistration.Tear Down">
+<doc></doc>
+<arguments>
+</arguments>
+<status endtime="20220530 13:26:01.791" starttime="20220530 13:26:00.285" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+<tag>Feature Testing</tag>
+</tags>
+<status critical="yes" endtime="20220530 13:26:01.793" starttime="20220530 13:25:55.713" status="PASS"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status endtime="20220530 13:26:01.835" starttime="20220530 13:23:53.633" status="FAIL"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status endtime="20220530 13:26:01.927" starttime="20220530 13:23:53.358" status="FAIL"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="19" fail="2">Critical Tests</stat>
+<stat pass="19" fail="2">All Tests</stat>
+</total>
+<tag>
+<stat pass="19" fail="2" doc="" links="" combined="" info="">Feature Testing</stat>
+</tag>
+<suite>
+<stat pass="19" fail="2" name="Acceptance" id="s1">Acceptance</stat>
+<stat pass="19" fail="2" name="1 RegistrationTest" id="s1-s1">Acceptance.1 RegistrationTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="robotframework.javalib.core" type="repository">
+    <properties maven-id="org.robotframework:javalib-core:1.2.1" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/robotframework/javalib-core/1.2.1/javalib-core-1.2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2/commons-collections-3.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/thoughtworks/paranamer/paranamer/1.1.2/paranamer-1.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
